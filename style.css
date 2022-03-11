@@ -17,10 +17,12 @@ body {
     display:flex;
     align-items: center;
     justify-content: center;
-
-
+    background-color: #e9e5da;
+    padding: 1px;
     flex-direction: column;
-    border: 1px solid black;
+    border: 10px solid #3d2923; 
+
+        
 }
 
 .container div {
@@ -34,45 +36,93 @@ body {
 }
 
 
-
 .container div span {
-    height: 8vh;
-    width: 8vw;
+    height: 9vh;
+    width: 6vw;
 }
 
-/* .buttonOne * {
+
+.buttonOne {
+    position: fixed;
+    top: 0;
+     left: 20%;
+       
+}
+
+
+.buttonTwo {
+    position: fixed;
+    top: 0;
+    right: 20%;
+}
+.buttonThree {
+    position: fixed;
+    top: 0;
+    right: 40%;
+}
+
+.buttonThree * {
+    margin-top: 10px;
+    width: 5vw;
+    height: 5vh;
+    font-size: 2vw;
+  border: 0;
+  cursor: pointer;
+   color: #fff;
+   background-color: rgb(158, 185, 158);
+   border-radius: 10px;
+}
+
+.buttonThree *:hover {
+   border: 1px solid rgb(206, 223, 217); 
+   font-weight: 600;
+}
+
+
+
+
+
+ .buttonOne * {
+     margin-top: 10px;
+     width: 15vw;
+     height: 5vh;
+     font-size: 2vw;
    border: 0;
    cursor: pointer;
-    color: rgb(206, 223, 217); 
+    color: #fff;
     background-color: rgb(158, 185, 158);
     border-radius: 10px;
 }
 
 .buttonOne *:hover {
     border: 1px solid rgb(206, 223, 217); 
+    font-weight: 600;
 }
-
-
 
 .buttonTwo * {
-    border: 0;
-    cursor: pointer;
-    background-color: #000;
-    color: #fff;
-    border-radius: 10px;
+    margin-top: 10px;
+   width: 15vw;
+   height: 5vh;
+   font-size: 2vw;
+  border: 0;
+  cursor: pointer;
+   color: #fff;
+   background-color: #694f47;
+   border-radius: 10px;
 }
+
+
 
 .buttonTwo *:hover {
-    border: 1px solid #fff; 
-} */
-
-
+   border: 1px solid #ddd7c6;
+   font-weight: 600;
+}
 
 .white {
-    background-color: #fff;
+    background-color: #ddd7c6;
 }
 .black {
-    background-color: #000;
+    background-color: #694f47;
 }
 
 
@@ -82,4 +132,96 @@ body {
 
 .light {
     background-color: rgb(206, 223, 217);
+}
+
+.b-king {
+
+    background-image : url('./assets/b-king.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.b-pawn {
+
+    background-image : url('./assets/b-pawn.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.b-horse {
+
+    background-image : url('./assets/b-horse.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.b-bishop {
+
+    background-image : url('./assets/b-bishop.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.b-queen {
+
+    background-image : url('./assets/b-queen.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.b-tower {
+
+    background-image : url('./assets/b-tower.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+/** white */
+
+
+.w-king {
+
+    background-image : url('./assets/w-king.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.w-pawn {
+
+    background-image : url('./assets/w-pawn.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.w-horse {
+
+    background-image : url('./assets/w-horse.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.w-bishop {
+
+    background-image : url('./assets/w-bishop.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.w-queen {
+
+    background-image : url('./assets/w-queen.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.w-tower {
+
+    background-image : url('./assets/w-tower.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
