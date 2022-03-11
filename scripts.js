@@ -34,6 +34,7 @@ window.addEventListener("load", () => {
 
     loopInit.forEach((num, index) => {
       const innerDiv = document.createElement("div");
+      const innerSpan = document.createElement('span');
 
       const arr = [];
       arr.push(parentId);
@@ -49,11 +50,15 @@ window.addEventListener("load", () => {
         
         // innerDiv.style.width = `${width / 8}px`;
         // innerDiv.style.height = `${width / 8}px`;
+        innerDiv.appendChild(innerSpan)
+    
         root.appendChild(innerDiv);
       } else {
         const num2 = [num === 1 ? 0 : 1];
         innerDiv.setAttribute("id", id);
         innerDiv.setAttribute("class", color[num2]);
+        innerDiv.appendChild(innerSpan)
+
         // innerDiv.style.width = `${width / 8}px`;
         // innerDiv.style.height = `${width / 8}px`;
         root.appendChild(innerDiv);
