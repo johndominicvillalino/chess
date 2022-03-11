@@ -318,7 +318,14 @@ document.addEventListener("dragleave", (event) => {});
 
 doc.addEventListener("drop", (e) => {
   const piece = dragInput.className;
+
+  //exclude blanks
+ if(piece.length < 1) {
+   return
+ }
   dragInput.className = "";
   e.target.className = piece;
+
+
 });
 
